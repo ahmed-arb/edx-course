@@ -112,11 +112,11 @@ setup(
         include=['edx_course', 'edx_course.*'],
         exclude=["*tests"],
     ),
-    entry_points={
-        "lms.djangoapp": [
-            "edx_course = edx_course.apps:EdxCourseConfig",
-        ],
-    },
+    # entry_points={
+    #     "lms.djangoapp": [
+    #         "edx_course = edx_course.apps:EdxCourseConfig",
+    #     ],
+    # },
     include_package_data=True,
     install_requires=load_requirements('requirements/base.in'),
     python_requires=">=3.8",

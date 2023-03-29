@@ -1,10 +1,13 @@
 """
 URLs for edx_course.
 """
-from django.urls import re_path  # pylint: disable=unused-import
-from django.views.generic import TemplateView  # pylint: disable=unused-import
+from django.urls import path
+
+from edx_course.views import hello
+
 
 urlpatterns = [
-    # TODO: Fill in URL patterns and views here.
-    # re_path(r'', TemplateView.as_view(template_name="edx_course/base.html")),
+    path(
+        'hello/', hello, name='hello'
+    ),
 ]

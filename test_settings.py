@@ -26,6 +26,8 @@ DATABASES = {
     }
 }
 
+ALLOWED_HOSTS = ['*']
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -33,6 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.sessions',
     'edx_course',
+    'rest_framework'
 )
 
 LOCALE_PATHS = [
