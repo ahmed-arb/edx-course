@@ -21,37 +21,12 @@ Context
 
 TODO: Add context of what led to the creation of this repo.
 
-.. This section describes the forces at play, including technological, political, social, and project local. These forces are probably in tension, and should be called out as such. The language in this section is value-neutral. It is simply describing facts.
+This project is for training purposes.
 
 Decision
 ********
 
-We will create a repository...
+We will create a repository that lists and filter edx courses
 
-TODO: Clearly state how the context above led to the creation of this repo.
 
-.. This section describes our response to these forces. It is stated in full sentences, with active voice. "We will …"
 
-Consequences
-************
-
-TODO: Add what other things will change as a result of creating this repo.
-
-.. This section describes the resulting context, after applying the decision. All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences, but all of them affect the team and project in the future.
-
-Rejected Alternatives
-*********************
-
-TODO: If applicable, list viable alternatives to creating this new repo and give reasons for why they were rejected. If not applicable, remove section.
-
-.. This section lists alternate options considered, described briefly, with pros and cons.
-
-References
-**********
-
-TODO: If applicable, add any references. If not applicable, remove section.
-
-.. (Optional) List any additional references here that would be useful to the future reader. See `Documenting Architecture Decisions`_ and `OEP-19 on ADRs`_ for further input.
-
-.. _Documenting Architecture Decisions: https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
-.. _OEP-19 on ADRs: https://open-edx-proposals.readthedocs.io/en/latest/best-practices/oep-0019-bp-developer-documentation.html#adrs
