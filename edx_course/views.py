@@ -15,7 +15,9 @@ def hello(request):
 
 class CourseListAPIView(ListAPIView):
 
-    queryset = CourseOverview.get_all_courses()
+    queryset = CourseOverview.get_all_courses().select_related(
+        'image_set'
+    )
     serializer_class = CourseSerializer
     filter_backends = [filters.SearchFilter]
     search_fields = ['display_name', 'language']
